@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (isImage) {
-                    logo.setImageResource(R.drawable.logouskhitamputih);
+                    logo.setImageResource(R.drawable.logo_usk_hitam_putih_png);
                     isImage = false;
                 } else {
                     logo.setImageResource(R.drawable.logoUSK);
