@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        logo = findViewById(R.id.logousk);
+        logo = findViewById(R.id.logouskhitamputih);
         tampilanScroll = findViewById(R.id.scrollView2);
         teks = findViewById(R.id.textView);
 
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (isImage) {
-                    logo.setImageResource(R.drawable.logo_usk_hitam_putih_png);
+                    logo.setImageResource(R.drawable.logouskhitamputih);
                     isImage = false;
                 } else {
                     logo.setImageResource(R.drawable.logoUSK);
